@@ -1,0 +1,15 @@
+/*reset.css(태그초기화)*/
+
+
+/*작업시 링크테크로 호출
+html에 적용시 <link rel="stylesheet" href="../css/reset.css">
+css에 적용시 @import url(../../css/reset.css)<-이 방법을 더 선호함;*/
+
+
+body{margin: 0; }
+*{box-sizing: border-box;}
+img{vertical-align: middle;}
+a{color: black; text-decoration: none;}
+ul,li{margin: 0; padding: 0; list-style-type: none;}
+h1,h2,h3,p, figure{margin: 0;}
+table{border-collapse: collapse;} 
